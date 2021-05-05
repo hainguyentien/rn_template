@@ -1,7 +1,7 @@
 module.exports = {
   // Placeholder used to rename and replace in files
   // package.json, index.json, android/, ios/
-  placeholderName: "rn_template",
+  placeholderName: "ramborntemplate",
 
   // Directory with template
   templateDir: "./template",
