@@ -3,10 +3,8 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'rn_template' do
+target 'ramboRNTemplate' do
   config = use_native_modules!
-
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -14,7 +12,7 @@ target 'rn_template' do
     :hermes_enabled => false
   )
 
-  target 'rn_templateTests' do
+  target 'ramboRNTemplateTests' do
     inherit! :complete
     # Pods for testing
   end

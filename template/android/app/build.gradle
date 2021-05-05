@@ -132,7 +132,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rn_template"
+        applicationId "com.ramborntemplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
